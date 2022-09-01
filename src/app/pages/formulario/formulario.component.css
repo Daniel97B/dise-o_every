@@ -1,0 +1,143 @@
+.salida{
+    font-size: 40px;
+    background-color: transparent;
+  }
+  
+  .todoCom{
+    height: 101%;
+  
+  }
+  #capture{
+  border: solid cadetblue 2px;
+  display:none;
+  }
+  .elicono{
+    font-size: 130px;
+  }
+  .lafoto{
+    max-width: 125px;
+    height: 125px;
+    padding: .5em;
+    height: 8vh;
+    filter: drop-shadow(3px 4px 4px #444);
+  }
+  
+  .lacard{
+    border-radius: 1rem;
+    filter: drop-shadow(3px 3px 3px #444);
+  }
+  
+  .eltexto{
+    font-family: 'Quicksand', sans-serif;
+  }
+  .titulos{
+    font-size: 35px;
+    font-family: 'Nanum Gothic', sans-serif;
+  }
+  
+  #container {
+  text-align: center;
+  
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  }
+  
+  #container strong {
+  font-size: 20px;
+  line-height: 26px;
+  }
+  
+  #container p {
+  font-size: 16px;
+  line-height: 22px;
+  
+  color: #8c8c8c;
+  
+  margin: 0;
+  }
+  
+  #container a {
+  text-decoration: none;
+  }
+  
+  #button-group, .play-area {
+  width: auto;
+  border: 1px solid grey;
+  padding: 3%;
+  margin-bottom: 1em;
+  }
+  
+  #play-area-sub {
+  padding: 1em 1%;
+  display: inline-block;
+  text-align: center;
+  }
+  
+  #button {
+  padding: 0.5em;
+  margin-right: 1em;
+  }
+  
+  #snapshot {
+  display: inline-block;
+  width: 320px;
+  height: 240px;
+  }
+  
+  #stream{
+  width: auto;
+  height:100%;
+  }
+  #button {
+    padding: 0.5em;
+    margin-right: 1em;
+    }
+  
+    #snapshot {
+    width: 320px;
+    height: 240px;
+    }
+    .stream{
+     width: auto;
+     height:110%;
+     margin-top: -1rem;
+     display: flex;
+    }
+  
+    .centrar{
+      padding: -1%;
+      margin: -2%;
+      top: 1rem;
+      /* IMPORTANTE */
+      text-align: center;
+  
+      }
+    .centrarbt{
+      text-align: center;
+      padding-top: -3rem;
+      margin-top:-40px;
+    }
+    .redondo{
+      border-radius: 9px;
+      -webkit-border-radius: 9px;
+      -moz-border-radius: 9px;
+      -ms-border-radius: 9px;
+      -o-border-radius: 9px;
+    }
+  
+    .corIzq{
+      margin-left: 1%;
+      margin-bottom: -12px;
+    }
+  
+  
+    mat-card {
+        max-width: 400px;
+        margin: 2rem 3rem;
+        height: auto;
+        border-radius: 10px;
+        border-style: double;
+    }  

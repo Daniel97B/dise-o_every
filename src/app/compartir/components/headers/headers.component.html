@@ -1,0 +1,24 @@
+<mat-toolbar  class="accent">
+    <ng-container *ngIf="!isAdmin; else roleadmin">
+        <span>EVERY_SCANNING</span>
+        <span class="spacer"></span>
+        <div>
+            <a mat-button [routerLink]="'/formulario'"> formulario</a>
+            <a mat-button [routerLink]="'/login'">logue</a>
+            <a mat-button [routerLink]="'/registro'">REGISTRO</a>
+        </div>
+    </ng-container>
+    <button (click)="isAdmin = !isAdmin">Cambio</button>
+</mat-toolbar>
+
+<!--! Imprimimos la propiedas la cual nos permitira ver sierta parte el codigo en caso de se admin  -->
+
+<ng-template #roleadmin>
+    <!--! establecemos un boton que solo podra ser visible si el usuario es administrador -->
+    <button mat-icon-button (click)="onToggleSidenav()">
+        <mat-icon>
+            menu
+        </mat-icon>
+    </button>
+    <span class="spacer"></span>
+</ng-template>

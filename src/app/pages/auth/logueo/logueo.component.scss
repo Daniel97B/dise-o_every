@@ -1,0 +1,31 @@
+.logue {
+    position: static ;
+   
+    /* justify-content: center; */
+    mat-card {
+        max-width: 400px;
+        margin: 2rem auto;
+        height: auto;
+        border-radius: 10px;
+        border-style: double;
+        
+    .boton{
+        background-color: black;
+        margin-top: 50px;
+        width: 160px;
+    }
+        mat-card-content{
+            text-align: center;
+            margin: 20px;
+
+            .full-width-input{
+                width: 94%;
+            }
+        }
+    }
+
+}
+
+.separador{
+    margin-top: 10px;
+}

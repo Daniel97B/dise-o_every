@@ -1,0 +1,14 @@
+/*! Posicionamos el header*/
+.spacer{
+    flex: 1 1 auto;
+}
+
+/*? Agregamos diseño a los link, y quitamos linea subrayada*/
+a{
+    text-decoration: none;
+    color: crimson;    
+}
+
+.color{
+
+}
